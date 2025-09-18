@@ -60,8 +60,6 @@ class MyHttpRequestHandler(http.server.BaseHTTPRequestHandler):
             self.wfile.write(html_content.encode('utf-8'))
 
         except FileNotFoundError:
-            # ⭐️ [수정된 부분] ⭐️
-            # 한글 오류 메시지를 안전하게 전송하기 위해 직접 응답을 구성합니다.
             error_message = '<h1>404 Not Found</h1><p>index.html 파일을 찾을 수 없습니다.</p>'
             
             self.send_response(404)

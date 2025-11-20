@@ -91,6 +91,9 @@ conn.close()
 ### DB Browser for SQLite 사용 (보너스 과제)
 - [x] DB Browser for SQLite 다운로드 및 설치
 - [x] board.db 파일 열기
+<img width="1298" height="827" alt="image" src="https://github.com/user-attachments/assets/285b150e-ae7b-4a37-b363-1387a1b35f93" />
 - [x] question 테이블 확인
+<img width="1298" height="827" alt="image" src="https://github.com/user-attachments/assets/5fdcc2c8-440d-4bb4-ad1a-b32d4e45b793" />
+
 
 
